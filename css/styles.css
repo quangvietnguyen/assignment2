@@ -27,6 +27,10 @@ button {
     padding: 5px;
 }
 
+li {
+    text-decoration: none;
+}
+
 @media (orientation: portrait){
     .grid-container {
         display: grid;

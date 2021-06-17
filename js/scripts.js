@@ -35,7 +35,7 @@ date = date.toDateString();
                 })
             }
 
-            $("#result").html("Success!")
+            $("#result").html("Saved JSON file to localStorage successfully!")
         });
 
         const array = [];
