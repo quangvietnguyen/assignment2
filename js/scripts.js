@@ -30,8 +30,10 @@ date = date.toDateString();
             
             function parseJSON(data) {
             $.each(data,(key,val) => {
-                    key = val.report_date;
-                    localStorage.setItem(key,JSON.stringify(val));
+                    var vaccine = new Vaccine();
+                    vaccine = val;
+                    key = vaccine.report_date;
+                    localStorage.setItem(key,JSON.stringify(vaccine));
                 })
             }
 
